@@ -1,0 +1,215 @@
+.text-default {
+    color: #bbb;
+}
+a.text-content-red {
+    color: red;
+}
+
+.text-content-orange {
+    color: orange;
+}
+
+.text-content {
+    font-size: 30px;
+}
+
+.text-content-a {
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    top: 70px;
+    background-color: #000;
+}
+
+.container-fluid {
+    margin: auto;
+    width: 800px;
+}
+
+.navbar {
+    min-height: 60px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color: #0c0a66;
+}
+
+.nav-footer {
+    background-color: #eee;
+}
+
+.text-footer {
+    color: #111;
+    font-size: 20px;
+}
+
+div.nav-center {
+    margin: auto;
+    width: 800px;
+}
+
+nav a.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+}
+
+nav a.nav-link:hover {
+    background-color: #338;
+}
+
+nav a.nav-link {
+    height: 70px;
+    color: #fff;
+}
+
+nav a.nav-logo {
+    color: #ff6;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+nav a.nav-logo {
+    color: #ff6;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+nav a.text-hot-a {
+    color: orange;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a.text-hot-b {
+    color: indianred;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.post {
+    margin: 15px;
+    background-color: #111;
+    height: 75px;
+}
+
+div.p-news {
+    position: relative;
+    top: -65px;
+    left: 80px;
+}
+
+img.p-img {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 65px;
+    height: 65px;
+}
+
+div.p-title {
+    height: 43px;
+    font-size: 23px;
+}
+
+div.p-title > a {
+    position: relative;
+    top: 2px;
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 0.1em solid #aaa;
+}
+
+div.p-title > a:visited {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 0.1em solid #888;
+}
+
+div.p-title > a:hover {
+    color: #333;
+    background-color: #ccc;
+    text-decoration: none;
+    border-bottom: 0.1em solid #ccc;
+}
+
+span.p-info {
+    position: relative;
+    top: -2px;
+    font-size: 18px;
+    color: #bbb;
+}
+
+span.p-info > a {
+    position: relative;
+    top: -0.1em;
+    color: #aaa;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 0.1em solid #aaa;
+}
+
+span.p-info > a:visited {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 0.1em solid #888;
+
+}
+
+span.p-info > a:hover {
+    color: #333;
+    background-color: #ccc;
+    text-decoration: none;
+    border-bottom: 0.1em solid #ccc;
+}
+
+div.p-like {
+    display: inline-block;
+    position: relative;
+    left: 670px;
+    top: -125px;
+}
+
+div.p-like > .pressed {
+    color: #333;
+}
+
+div.p-like > .p-like-btn-up > a > i {
+    color: #aaa;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 6px;
+    width: 20px;
+}
+
+li.nav-link > i {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 6px;
+    width: 20px;
+}
+
+div.p-like > .p-like-btn-up > a:hover {
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+div.p-like > .p-like-btn-up > a:hover > i {
+    color: #333;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 6px;
+    width: 20px;
+}
+
+div.p-like > .p-like-count {
+    color: #aaa;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
