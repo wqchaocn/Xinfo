@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class LikeService {
     @Autowired
-    JedisAdapter jedisAdapter;
+    private JedisAdapter jedisAdapter;
 
     /**
      * 如果已赞则返回1, 已踩返回-1, 其他返回0

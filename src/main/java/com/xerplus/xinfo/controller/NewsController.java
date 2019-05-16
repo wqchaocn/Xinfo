@@ -24,22 +24,22 @@ public class NewsController {
     private static final Logger logger = LoggerFactory.getLogger(NewsController.class);
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @Autowired
-    NewsService newsService;
+    private NewsService newsService;
 
     @Autowired
-    QiniuService qiniuService;
+    private QiniuService qiniuService;
 
     @Autowired
-    CommentService commentService;
+    private CommentService commentService;
 
     @Autowired
-    LikeService likeService;
+    private LikeService likeService;
 
     @Autowired
-    HostHolder hostHolder;
+    private HostHolder hostHolder;
 
     @RequestMapping(path = {"/add"})
     public String add() {
@@ -196,7 +196,7 @@ public class NewsController {
     }
 
     /**
-     *
+     * 点赞数排名
      * @param model
      * @return
      */
@@ -224,7 +224,7 @@ public class NewsController {
     }
 
     /**
-     *
+     * 评论数排名
      * @param model
      * @return
      */

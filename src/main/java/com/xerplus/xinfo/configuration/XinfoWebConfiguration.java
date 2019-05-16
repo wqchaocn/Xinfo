@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 @Component
 public class XinfoWebConfiguration extends WebMvcConfigurationSupport {
     @Autowired
-    PassportInterceptor passportInterceptor;
+    private PassportInterceptor passportInterceptor;
 
     // 防止拦截静态资源
     @Override

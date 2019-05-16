@@ -28,7 +28,7 @@ public interface CommentDAO {
     int getCommentCount(@Param("entityId")int entityId,
                         @Param("entityType")int entityType);
 
-    //删除评论，把status设为1
+    // 删除评论，把status设为1
     @Update({"update", TABLE_NAME, "set status=#{status} where entityId=#{entityId} and entityType=#{entityType}"})
     void updateStatus(@Param("entityId") int entityId,
                       @Param("entityType") int entityType,

@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class LikeController {
     @Autowired
-    HostHolder hostHolder;
+    private HostHolder hostHolder;
 
     @Autowired
-    LikeService likeService;
+    private LikeService likeService;
 
     @Autowired
-    NewsService newsService;
+    private NewsService newsService;
 
     /**
      * 点赞

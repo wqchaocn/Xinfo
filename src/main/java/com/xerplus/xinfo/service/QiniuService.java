@@ -1,7 +1,6 @@
 package com.xerplus.xinfo.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.qiniu.common.QiniuException;
 import com.qiniu.common.Zone;
 import com.qiniu.http.Response;
 import com.qiniu.storage.Configuration;
@@ -23,8 +22,8 @@ public class QiniuService {
 
     Configuration cfg = new Configuration(Zone.zone0());
     UploadManager uploadManager = new UploadManager(cfg);
-    String accessKey = "mMzeWk6tk9fPQVFg30vJCdYplhYv8BwiRQAVYRlI";
-    String secretKey = "UYC41B3-OWe8gN7L1T6irguPQiYfJ1-bZ5IVcKAp";
+    String accessKey = "***";
+    String secretKey = "***";
     String bucket = "fxx";
     Auth auth = Auth.create(accessKey, secretKey);
     String upToken = auth.uploadToken(bucket);

@@ -21,12 +21,12 @@ import java.util.UUID;
 @Service
 public class UserService {
     @Autowired
-    UserDAO userDAO;
+    private UserDAO userDAO;
 
     @Autowired
-    LoginTicketDAO loginTicketDAO;
+    private LoginTicketDAO loginTicketDAO;
 
-    String deHeadUrl = "http://localhost:8080/images/default-avater.png";
+    private String deHeadUrl = "http://localhost:8080/images/default-avater.png";
 
     public User getUser(int id) {
         return userDAO.selectById(id);

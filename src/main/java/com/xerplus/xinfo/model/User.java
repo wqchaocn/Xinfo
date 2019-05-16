@@ -7,10 +7,6 @@ public class User {
     private String salt;
     private String headUrl;
 
-    public User() {
-        // Empty
-    }
-
     public User(String name) {
         this.name = name;
         this.password = "";

@@ -18,7 +18,7 @@ public class LoginController {
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @RequestMapping(path = {"/login"})
     public String login() {

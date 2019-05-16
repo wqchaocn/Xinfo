@@ -9,8 +9,6 @@ import java.util.Map;
 public class XinfoUtil {
     public static String IMAGE_DIR = "C:/XerUpload/";
 
-    public static String PRIMARY_DOMAIN = "http://localhost:8080";
-
     public static String QINIU_DOMAIN = "http://pqb5owcrf.bkt.clouddn.com/";
 
     public static String DOMAIN = "http://localhost:8080/";
@@ -26,28 +24,6 @@ public class XinfoUtil {
             }
         }
         return false;
-    }
-
-    public static JSONObject getJSON(int code, String msg) {
-        JSONObject json = new JSONObject();
-        json.put("code", code);
-        json.put("msg", msg);
-        return json;
-    }
-
-    public static JSONObject getJSON(int code, Map<String, Object> map) {
-        JSONObject json = new JSONObject();
-        json.put("code", code);
-        for (Map.Entry<String, Object> entry: map.entrySet()) {
-            json.put(entry.getKey(), entry.getValue());
-        }
-        return json;
-    }
-
-    public static String getJSONString(int code) {
-        JSONObject json = new JSONObject();
-        json.put("code", code);
-        return json.toJSONString();
     }
 
     public static String getJSONString(int code, String msg) {

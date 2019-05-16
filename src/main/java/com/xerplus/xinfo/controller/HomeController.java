@@ -20,16 +20,16 @@ import java.util.List;
 @Controller
 public class HomeController {
     @Autowired
-    HostHolder hostHolder;
+    private HostHolder hostHolder;
 
     @Autowired
-    NewsService newsService;
+    private NewsService newsService;
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @Autowired
-    LikeService likeService;
+    private LikeService likeService;
 
     @RequestMapping(path = {"/result"})
     public String result() {
